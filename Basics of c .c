@@ -8,8 +8,6 @@
 //     return 0;
 // }
 
-
-
 // #include <stdio.h>
 
 // int main() {
@@ -19,8 +17,6 @@
 //     return 0;
 // }
 
-
-
 // #include <stdio.h>
 
 // int main() {
@@ -29,8 +25,6 @@
 
 //     return 0;
 // }
-
-
 
 // #include <stdio.h>
 
@@ -42,8 +36,6 @@
 //     return 0;
 // }
 
-
-
 // #include <stdio.h>
 
 // int main() {
@@ -53,19 +45,18 @@
 //     return 0;
 // }
 
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char str1[] = "a+";
-    char str2[] = "b";
-    
-    strcat(str1,str2);
-    printf("%s",str1);
-
-    return 0;
-}
-
+// #include <stdio.h>
+// #include <string.h>
+//
+// int main() {
+//     char str1[] = "a+";
+//     char str2[] = "b";
+//
+//     strcat(str1,str2);
+//     printf("%s",str1);
+//
+//     return 0;
+// }
 
 // #include <stdio.h>
 
@@ -77,7 +68,6 @@ int main() {
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 
 // int main() {
@@ -88,8 +78,6 @@ int main() {
 // }
 //     return 0;
 // }
-
-
 
 //  #include <stdio.h>
 
@@ -104,7 +92,6 @@ int main() {
 //      return 0;
 // }
 
-
 // #include <stdio.h>
 
 // int main() {
@@ -114,7 +101,6 @@ int main() {
 
 //     return 0;
 // }
-
 
 // #include <stdio.h>
 
@@ -126,7 +112,6 @@ int main() {
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 
 // int main() {
@@ -136,7 +121,6 @@ int main() {
 
 //     return 0;
 // }
-
 
 // #include <stdio.h>
 
@@ -148,7 +132,6 @@ int main() {
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 
 // int main() {
@@ -159,7 +142,6 @@ int main() {
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 
 // int main() {
@@ -167,7 +149,6 @@ int main() {
 
 //     return 0;
 // }
-
 
 // #include <stdio.h>
 
@@ -177,7 +158,6 @@ int main() {
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 
 // int main() {
@@ -185,7 +165,6 @@ int main() {
 
 //     return 0;
 // }
-
 
 // #include <stdio.h>
 
@@ -195,11 +174,87 @@ int main() {
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 
 // int main() {
 //     printf("%f", 8.2/2);
 
 //     return 0;
+//}
+
+// #include <stdio.h>
+// int main(){
+//	int i;
+//	for(i=0; i<=10; i++){
+//		printf("%d\t", i);
+//	}
 // }
+
+// #include <stdio.h>
+// int main(){
+//	int i;
+//	(i=0);
+//	while(i<=10){
+//		printf("%d\t", i);
+//		i++ ;
+//	}
+// }
+
+// QUEST: Print even numbers from 1 to 11 using for and while loop.
+// #include<stdio.h>
+// int main(){
+//	int i;
+//	for(i=1; i<=11; i++){
+//		if(i%2==0){
+//			printf("%d\n", i);
+//		}
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int i;
+//	(i = 1);
+//	while (i <= 11)
+//	{
+//		if (i % 2 == 0)
+//		{
+//			printf("%d\n", i);
+//		}
+//		i++;
+//	}
+//	return 0;
+//}
+
+
+//#include <stdio.h>
+//int main(){
+//	int arr[5]= {1,2,3,4,5};
+//    int i;
+//	for(i=0; i<=4; i++){
+//	printf("%d", arr[i]);	
+//	}
+//	printf("%d",sizeof("3"));
+//	return 0;
+//}
+
+
+
+//QUEST: Do the sum of all the elements of the array.
+#include<stdio.h>
+int main(){
+	int arr[7] = {4,3,2,1,7,8,6};
+    int length = sizeof(arr)/sizeof(arr[0]);
+	int sum =0;
+	int i;
+	for( i=0; i<length; i++){
+	sum = sum + arr[i];
+	
+	}
+		printf("%d",sum);
+	return 0;
+}
+
+
